@@ -9,7 +9,7 @@ in stdenv.mkDerivation {
   #custom builder
   builder = ./builder.sh;
 
-  # Alternatively, we could pull composer.json from a remote repository
+  # Alternatively, pull composer.json from a remote repository
   #src = fetchurl {
   #  url = http://zalora.duckdns.org:31212/composer.json;
   #  sha256 = "dfd9dc3a571f9899e461033543672dbb8b9d4a584bb02c962c37aa55a76e4fff";
